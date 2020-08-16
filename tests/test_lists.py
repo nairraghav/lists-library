@@ -15,6 +15,8 @@ class TestListManager:
             self.requires_cleanup = True
             with open(self.file_name, "r") as json_input_file:
                 self.stored_lists = json_load(json_input_file)
+        else:
+            self.requires_cleanup = False
 
     def teardown_class(self):
         if self.requires_cleanup is True:
