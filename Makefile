@@ -15,11 +15,14 @@ lint:
 format:
 	black $(APP_NAME) --line-length 79
 
+format-check:
+	black $(APP_NAME) --check --line-length 79
+
 build:
 	python setup.py sdist bdist_wheel
 
 local-test:
-	pip uninstall -y $(APP_NAME)
+	pip uninstall -y list_manager
 	make clean
 	make build
-	pip install dist/$(APP_NAME)-*-py3-none-any.whl
+	pip install dist/list_manager-*-py3-none-any.whl
