@@ -1,7 +1,7 @@
 # List Manager
-[![Build Status](https://travis-ci.org/nairraghav/list-library.svg?branch=master)](https://travis-ci.org/nairraghav/list-library)
-[![codecov.io](https://codecov.io/github/nairraghav/list-library/coverage.svg?branch=master)](https://codecov.io/gh/nairraghav/list-library)
-[![PyPI version](https://badge.fury.io/py/list-library.svg)](https://badge.fury.io/py/list-library)
+[![Build Status](https://travis-ci.org/nairraghav/lists-library.svg?branch=master)](https://travis-ci.org/nairraghav/lists-library)
+[![codecov.io](https://codecov.io/github/nairraghav/lists-library/coverage.svg?branch=master)](https://codecov.io/gh/nairraghav/lists-library)
+[![PyPI version](https://badge.fury.io/py/lists-library.svg)](https://badge.fury.io/py/lists-library)
 
 A CLI tool that allows for list management
 
