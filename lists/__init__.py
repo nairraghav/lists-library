@@ -1,4 +1,4 @@
-__VERSION__ = "1.0.0"
+__VERSION__ = "1.0.1"
 
 from lists.list_manager import ListManager
 import argparse
